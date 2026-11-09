@@ -1,0 +1,49 @@
+:host {
+  display: block;
+  margin-top: 32px;
+}
+
+.profile-card {
+  position: relative;
+  padding: 22px 24px 22px 28px;
+  border: 1px solid #e6e8ee;
+  border-radius: 12px;
+  background: #fbfbfd;
+  box-shadow: 0 2px 8px rgba(31, 36, 48, 0.05);
+  overflow: hidden;
+}
+
+.profile-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: #7a1f3d;
+}
+
+.profile-card h2 {
+  margin: 0 0 8px;
+  color: #7a1f3d;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.profile-card p {
+  margin: 0 0 14px;
+  color: #3d4452;
+  line-height: 1.7;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: #f6eef1;
+  border: 1px solid #ecd9e0;
+  color: #7a1f3d;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
